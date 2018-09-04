@@ -13,6 +13,8 @@ app.set('views', __dirname + '/view'); //  précise à express le dossier des vu
 // définition de ressources statiques...
 app.use('/ejs', express.static(__dirname + '/node_modules/ejs'));
 app.use(express.static(__dirname + '/public'));
+app.use('/jquery', express.static(__dirname + '/node_modules/jquery'));
+
 
 // TEMPLATE VARS !!!
 // Accessibles dans tout le template via app.locals (API express)

@@ -2,6 +2,28 @@
 
 <section id="home">
   <h1 class="title">Home - Simple Express Template</h1>
+  <div id="sliderr">
+     <div class="slider" id="slider">
+		<div class="slItems">
+			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=990');">
+				<div class="slText">
+					jQuery Slider.js Backgounrd Carousel Example
+				</div>
+			</div>
+			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=976');">
+				<div class="slText">
+					Praesent consequat sapien ut dui hendrerit imperdiet. Donec tincidunt risus et semper accumsan. 
+				</div>
+			</div>
+			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=950');">
+				<div class="slText">
+					Morbi aliquam tristique rutrum. Donec pretium urna vel lectus eleifend, non condimentum enim fermentum. Ut blandit interdum quam ac consequat.
+				</div>
+			</div>
+		</div>
+	</div>
+      
+  </div>
   <h2 class="title">Say my name, say my naaaame ( === <b><%= nom %></b> ))</h2>
   <h3 class="title">TP Intro</h3>
   <p>
@@ -20,5 +42,6 @@
     Trouver et importer une base de données des pays du monde au format SQL (... ou JSON à convertir :D ).<br> Contrainte : la clé primaire (id) doit être numérique (ça ne devrait pas poser problème).<br> Utiliser phpMyAdmin pour modifier la table user.<br> Sa clé étrangère doit pointer vers le bonne colonne de la table country.
   </p>
 </section>
+
 
 <%- include partial/footer.ejs %>
